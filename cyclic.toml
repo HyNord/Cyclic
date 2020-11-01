@@ -4,46 +4,46 @@
 #####################################################################################
 [cyclic]
 	#Disable the endgame gear
-	gemObsidianGear = true
+	gemObsidianGear = false
 	#Disable the cables aka pipes
 	cables = true
 	#Disable the 3 scaffolding blocks
 	scaffolding = true
 	#Disable 9 items, emerald armor and tools
-	emeraldGear = true
+	emeraldGear = false
 	#Disable 5 netherbrick tools
-	netherbrickGear = true
+	netherbrickGear = false
 	#Disable the completely balanced climbing glove
-	glove = true
+	glove = false
 	#Disable 6 charms (four basic, the ultimate, and the anti-gravity)
 	charms = true
 	#Disable all 11 enchantments
-	enchantments = true
+	enchantments = false
 	#Disable 5 sandstone tools
-	sandstoneGear = true
+	sandstoneGear = false
 	#Disable the 3 boomerang items
-	boomerangs = true
+	boomerangs = false
 	#Disable the 3 spike blocks
-	spikes = true
+	spikes = false
 	#Disable 2 heart items that increase and decrease max health
 	hearts = true
 	#Disable the 5 carrot items that upgrade horses
-	carrots = true
+	carrots = false
 
 	#####################################################################################
 	# Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use  
 	#####################################################################################
 	[cyclic.command]
 		#True means only players with OP can use this /cyclic command
-		help = false
+		help = true
 		#True means only players with OP can use this /cyclic command
-		nbtprint = false
+		nbtprint = true
 		#True means only players with OP can use this /cyclic command
 		health = true
 		#True means only players with OP can use this /cyclic command
-		pingnether = false
+		pingnether = true
 		#True means only players with OP can use this /cyclic command
-		gethome = false
+		gethome = true
 		#True means only players with OP can use this /cyclic command
 		worldspawn = true
 		#True means only players with OP can use this /cyclic command
@@ -140,4 +140,5 @@
 			# Power gained burning one of this
 			#Range: 1 ~ 64000
 			peat_fuel = 256
+		
 
